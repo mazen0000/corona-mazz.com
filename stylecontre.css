@@ -1,0 +1,78 @@
+.header1{
+    background-color: rgb(255, 255, 89);
+    position: relative;
+    margin: 10px;
+    clear: both;
+    border:4px ridge black;
+    box-shadow: 8px 8px 4px rgb(114, 96, 96);
+}
+.logo{
+    animation-name: l;
+    animation-timing-function: initial;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    opacity: 100%;
+    margin-left: 35%;
+    margin-top: 5px;
+    mix-blend-mode: multiply;
+}
+.vaccination{
+    position: relative;
+    align-content: center;
+}
+.contre{
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+
+}
+.top {
+    font-family: Cambria;
+    color: rgb(196, 26, 26);
+    display: flex;
+    width:100%;
+    height:auto;
+    margin-bottom: 10px;
+}
+.top a{
+    font-family: Cambria;
+    font-size: 25px;
+    color: rgb(196, 26, 26);
+    margin-left: 35px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: text-decoration 1s;
+}
+.top a:hover{
+    text-decoration: underline;
+}
+.top .p3{
+    font-family: Cambria;
+    font-size: 25px;
+    color: rgb(196, 26, 26);
+    margin-left: 2px;
+    text-decoration: none;
+    margin-top: 15px;
+    
+}
+.t1{
+    position: absolute;
+    bottom: 50px;
+    font-size: 40px;
+    left: 400px;
+    color: white;
+    background-color: #c41a1a;
+    box-shadow: 1px 0px 4px 4px #c41a1a;
+    font-family: Cambria;
+}
+.p1{
+    font-size: 20px;
+    font-family: Cambria;
+    font-weight: 900;
+    line-height: 1.4;
+    padding: 20px;
+}
+.slash{
+    color: black;
+    font-weight: 1000;
+}
